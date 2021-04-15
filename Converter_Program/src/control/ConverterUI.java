@@ -60,7 +60,7 @@ public class ConverterUI extends JFrame implements ActionListener
 		pnlResult = new JPanel();
 		pnlResult.setBackground(Color.LIGHT_GRAY);
 		lbResult = new JLabel("Result");
-		txtResult = new JTextField(50);
+		txtResult = new JTextField(40);
 		txtResult.setDisabledTextColor(Color.BLUE);
 		txtResult.setEnabled(false);
 		pnlResult.add(lbResult);

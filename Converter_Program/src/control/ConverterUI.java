@@ -82,7 +82,8 @@ public class ConverterUI extends JFrame implements ActionListener
 		super.add(pnlButton);
 		
 		
-		//Lang nghe su kien 
+		
+		//Add cac event listener
 		comboSelection.addActionListener(this);
 		bSolve.addActionListener(this);
 		bReset.addActionListener(this);

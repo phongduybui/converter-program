@@ -97,6 +97,7 @@ public class ConverterUI extends JFrame implements ActionListener
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() == comboSelection) {
 			String selectedItem = comboSelection.getSelectedItem().toString();
+			//Kiemt tra selected item co phai la chieu dai hay ko
 			if(selectedItem == "Chieu dai") {
 				
 				//Check comboSource != null hay khong de xoa component cu tranh gay ra vo layout 

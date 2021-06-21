@@ -16,7 +16,7 @@ import javax.swing.JTextField;
 public class ConverterUI extends JFrame implements ActionListener
 {
 
-	String selection[] = {"Lua chon:", "Chieu dai", "Khoi luong"};
+	String selection[] = {"Length:", "Chieu dai", "Khoi luong"};
 	String lengthSelect[] = {"m", "km"};
 	String massSelect[] = {"g", "kg"};
 	private JComboBox comboSelection, comboSource, comboDestination;
